@@ -27,4 +27,4 @@
 . bench --site frontend migrate <br/>
 . sudo docker compose -p pwd -f docker-compose.yml up <br/>
 
-then open http://localhost:8080
+## open http://localhost:8080
