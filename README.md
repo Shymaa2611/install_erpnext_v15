@@ -1,6 +1,6 @@
 # INSTALL ERPNEXT VERSION 15
 
-# Steps
+## Steps
 . create Folder <folder_name> <br/>
 . create Folder called erpnext_docker in this folder <br/>
 . download docker-compose.yml in this folder <br/>
@@ -10,7 +10,7 @@
 . sudo docker volume rm $(sudo docker volume ls -q) <br/> 
 . sudo docker compose -p pwd -f docker-compose.yml up <br/>
 
-# Install app on erpnext
+## Install hrms app on erpnext
 
 . sudo docker exec -it --user root <frontend_container_name> bash <br/>
 . su - frappe <br/>
