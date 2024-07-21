@@ -26,3 +26,5 @@
 . bench --site frontend install-app hrms <br/>
 . bench --site frontend migrate <br/>
 . sudo docker compose -p pwd -f docker-compose.yml up <br/>
+
+then open http://localhost:8080
