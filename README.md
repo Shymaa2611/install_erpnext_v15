@@ -1,4 +1,4 @@
-# Install ERPNEXT VERSION 15
+# INSTALL ERPNEXT VERSION 15
 
 # Steps
 . create Folder <folder_name> <br/>
