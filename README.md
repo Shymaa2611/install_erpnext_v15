@@ -12,10 +12,10 @@
 
 # Install app on erpnext
 
-. sudo docker exec -it --user root <frontend_container_name> bash
-. su - frappe
-. cd /home/frappe/frappe-bench
-. bench get-app hrms
-. bench --site frontend install-app hrms
-. bench --site frontend migrate
-. sudo docker compose -p pwd -f docker-compose.yml up
+. sudo docker exec -it --user root <frontend_container_name> bash <br/>
+. su - frappe <br/>
+. cd /home/frappe/frappe-bench <br/>
+. bench get-app hrms <br/>
+. bench --site frontend install-app hrms <br/>
+. bench --site frontend migrate <br/>
+. sudo docker compose -p pwd -f docker-compose.yml up <br/>
